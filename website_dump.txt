@@ -373,7 +373,7 @@ nas1-ib1:/mnt/site_scratch
 	<li>KU Leuven/Hasselt University cluster: E-mail <a href=\"mailto:HPCinfo@kuleuven.be\">HPCinfo@kuleuven.be</a></li>
 	<li>Ghent University: E-mail <a href=\"mailto:hpc@ugent.be\">hpc@ugent.be</a> , info <a class=\"external-link\" href=\"https://www.ugent.be/hpc/en\" target=\"_blank\">hpc.ugent.be</a></li>
 	<li>Antwerp University: E-mail <a href=\"mailto:hpc@uantwerpen.be\">hpc@uantwerpen.be</a>, further info on the <a href=\"https://www.uantwerpen.be/en/research-and-innovation/expertise/core-facilities/core-facilities/calcua/\" target=\"_blank\">CalcUA Core Facility web page</a></li>
-	<li>VUB: E-mail <a href=\"mailto:hpc@vub.ac.be\">hpc@vub.ac.be</a> for information about accessing the VSC infrastructure or help with preparing a tier-1 proposal</li>
+	<li>VUB: E-mail <a href=\"mailto:hpc@vub.be\">hpc@vub.be</a> for information about accessing the VSC infrastructure or help with preparing a tier-1 proposal</li>
 </ul><h2><a id=\"information-for-support\" name=\"information-for-support\"></a>What information should I provide when contacting user support?</h2><p>When you submit a support request, it helps if you always provide:
 </p><ol>
 	<li>your VSC user ID (or VUB netID),</li>
@@ -515,7 +515,7 @@ ictstest/2014a  K20Xm/2015a     K40c/2015a      phi/2014a       thinking2/2014a
 	<li>KU Leuven/Hasselt University cluster: E-mail <a href=\"mailto:HPCinfo@kuleuven.be\">HPCinfo@kuleuven.be</a></li>
 	<li>Ghent University: E-mail <a href=\"mailto:hpc@ugent.be\">hpc@ugent.be</a> , info <a class=\"external-link\" href=\"https://www.ugent.be/hpc/en\">hpc.ugent.be</a></li>
 	<li>Antwerp University: E-mail <a href=\"mailto:hpc@uantwerpen.be\">hpc@uantwerpen.be</a>, further info on the <a href=\"https://www.uantwerpen.be/en/research-and-innovation/expertise/core-facilities/core-facilities/calcua/\">CalcUA Core Facility web page</a></li>
-	<li>VUB: E-mail <a href=\"mailto:hpc@vub.ac.be\">hpc@vub.ac.be</a> for information about accessing the VSC infrastructure or help with preparing a tier-1 proposal</li>
+	<li>VUB: E-mail <a href=\"mailto:hpc@vub.be\">hpc@vub.be</a> for information about accessing the VSC infrastructure or help with preparing a tier-1 proposal</li>
 </ul><p>Please also take a look at our <a href=\"/support/contact-support\">web page about technical support</a>. It contains a lot of tips about the information that you can pass to us with your support question so that we can provide a helpful answer faster.
 </p><h2>General enquiries</h2><p>For non-technical questions about the VSC, you can contact the FWO or one of the coordinators from participating universities. This may include questions on admission requirements to questions about setting up a course or other questions that are not directly related to technical problems.<br>
 </p>"
@@ -7566,7 +7566,7 @@ evolution biology
 511,"User support","<p>KU Leuven/UHasselt: <a href=\"mailto:HPCinfo@kuleuven.be\">HPCinfo@kuleuven.be</a><br>
 	Ghent University: <a href=\"mailto:hpc@ugent.be\">hpc@ugent.be</a><br>
 	Antwerp University: <a href=\"mailto:hpc@uantwerpen.be\">hpc@uantwerpen.be</a><br>
-	VUB: <a href=\"mailto:hpc@vub.ac.be\">hpc@vub.ac.be</a>
+	VUB: <a href=\"mailto:hpc@vub.be\">hpc@vub.be</a>
 </p>
 <p><a href=\"/support/contact-support\">Please take a look at the information that you should provide with your support question.</a>.
 </p>"
@@ -9895,7 +9895,7 @@ documentation
 </p><p>You should not be using <code>lmod</code> directly in other circumstances, use either <code>ml</code> or <code>module</code> instead.
 </p><h2>Questions or problems</h2><p>In case of questions or problems, please do not hesitate to contact the support HPC team.  HPC-UGent support team can be reached via <strong><a rel=\"nofollow\" href=\"mailto:hpc@ugent.be\">hpc@ugent.be</a></strong>.
 The HPC-VUB support team can be reached via 
-	<strong><a rel=\"nofollow\" href=\"mailto:hpc@ugent.be\">hpc@vub.ac.be</a></strong>.
+	<strong><a rel=\"nofollow\" href=\"mailto:hpc@ugent.be\">hpc@vub.be</a></strong>.
 </p>"
 701,"Job submission and credit reservations","<p>When you submit a job, a reservation is made.  This means that the number of credits required to run your job is marked as reserved.  Of course, this is the number of credits that is required to run the job during the walltime specified, i.e., the reservation is computed based on the requested walltime.
 </p><p>Hence, if you submit a largish number of jobs, and the walltime is overestimated, reservation will be made for a total that is potentially much larger than what you'll actually be debited for upon job completion (you're only debited for the walltime used, not the walltime requested).
