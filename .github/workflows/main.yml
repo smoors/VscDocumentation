@@ -7,12 +7,9 @@ jobs:
     name: build sphinx docs
     steps:
       - uses: actions/checkout@v3
-      - uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
       - name: install sphinx
         run: |
-          pip install sphinx==4.3.0
+          python3 -m pip install sphinx==4.3.0
       - name: build sphinx docs
         run: |
           make html
