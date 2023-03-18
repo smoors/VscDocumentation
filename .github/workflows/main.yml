@@ -1,3 +1,4 @@
+name: test_sphinx_build
 on: [push, pull_request]
 
 jobs:
