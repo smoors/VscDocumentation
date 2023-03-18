@@ -2,10 +2,17 @@ on: [push, pull_request]
 
 jobs:
   build_docs_job:
-    runs-on: sphinxdoc/sphinx:5.3.0
+    runs-on: ubuntu-22.04
     name: build sphinx docs
     steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+      - name: install sphinx
+        run: |
+          pip install sphinx==5.3.0
       - name: build sphinx docs
-        id: build
-        run: make html | grep "^build succeeded"
+        run: |
+          make html | grep "^build succeeded"
 
