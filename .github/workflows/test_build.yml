@@ -1,0 +1,17 @@
+name: test docs build
+on:
+- push
+- pull_request
+
+jobs:
+  docs:
+    runs_on: ubuntu-22.04
+    steps:
+    - name: build sphinx docs
+      - id: build
+      - uses: actions/VscDocumentation@v2
+    - name: show build summary
+      run: echo "Summary: ${{ steps.buid.outputs.summary }}"
+
+
+

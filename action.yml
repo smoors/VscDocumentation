@@ -1,0 +1,23 @@
+name: 'sphinx docs build'
+description: 'builds docs using sphinx'
+inputs:
+  docs-folder:
+    description:
+      folder containing sphinx docs.
+    required: true
+    default: "source/"
+  build-command:
+    description:
+      command used to build docs.
+    required: false
+    default: make html
+  pre-build-command:
+    description:
+      cmds to run before the build command
+    required: false
+outputs:
+  summary:
+    description: summary of the sphinx build
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
