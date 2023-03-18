@@ -1,0 +1,11 @@
+on: [push, pull_request]
+
+jobs:
+  build_docs_job:
+    runs-on: sphinxdoc/sphinx:5.3.0
+    name: build sphinx docs
+    steps:
+      - name: build sphinx docs
+        id: build
+        run: make html | grep "^build succeeded"
+
