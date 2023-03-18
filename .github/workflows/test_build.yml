@@ -1,15 +1,13 @@
-name: test docs build
 on: [push, pull_request]
 
 jobs:
-  docs:
+  build_docs_job:
     runs_on: ubuntu-22.04
+    name: job that builds sphinx docs
     steps:
-    - name: build sphinx docs
-      - id: build
-      - uses: actions/VscDocumentation@v2
-    - name: show build summary
-      run: echo "Summary: ${{ steps.buid.outputs.summary }}"
-
-
+      - name: build sphinx docs
+        id: build
+        uses: actions/VscDocumentation@v2
+      - name: show build summary
+        run: echo "${{ steps.buid.outputs.summary }}"
 
