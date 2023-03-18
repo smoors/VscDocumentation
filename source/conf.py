@@ -19,6 +19,8 @@
 
 # -- Project information -----------------------------------------------------
 
+error
+
 project = 'VSC documentation'
 copyright = '2020, VSC (Vlaams Supercomputing Center)'
 author = 'VSC (Vlaams Supercomputing Center)'
