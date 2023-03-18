@@ -3,12 +3,12 @@ description: 'builds docs using sphinx'
 inputs:
   docs-folder:
     description:
-      folder containing sphinx docs.
+      folder containing sphinx docs
     required: true
     default: "source/"
   build-command:
     description:
-      command used to build docs.
+      command used to build docs
     required: false
     default: make html
   pre-build-command:
